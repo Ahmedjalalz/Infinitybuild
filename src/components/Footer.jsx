@@ -23,8 +23,9 @@ const Footer = () => {
               </p>
             </div>
             <p className="text-gray-600 max-w-xs leading-relaxed">
-              We craft exceptional digital experiences that drive growth. From stunning websites to powerful web applications.
+              Nous créons des expériences digitales exceptionnelles qui stimulent votre croissance, des sites web élégants aux applications web performantes.
             </p>
+
           </div>
 
           {/* Center: Quick Links */}
