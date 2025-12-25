@@ -57,7 +57,7 @@ export default function GetQuoteForm() {
           name="name"
           value={formData.name}
           onChange={handleChange}
-          placeholder="Your Name"
+          placeholder="Votre nom"
           className={inputClasses}
           required
         />
@@ -67,7 +67,7 @@ export default function GetQuoteForm() {
           type="email"
           value={formData.email}
           onChange={handleChange}
-          placeholder="youremail@example.com"
+          placeholder="votreemail@exemple.com"
           className={inputClasses}
           required
         />
@@ -76,7 +76,7 @@ export default function GetQuoteForm() {
           name="phone"
           value={formData.phone}
           onChange={handleChange}
-          placeholder="+1 (555) 123-4567"
+          placeholder="+33 6 12 34 56 78"
           className={inputClasses}
         />
 
@@ -86,11 +86,11 @@ export default function GetQuoteForm() {
           onChange={handleChange}
           className={inputClasses}
         >
-          <option value="">Select budget</option>
-          <option>$1,000 – $2,000</option>
-          <option>$2,000 – $5,000</option>
-          <option>$5,000 – $10,000</option>
-          <option>$10,000+</option>
+          <option value="">Sélectionnez un budget</option>
+          <option>1 000 € – 2 000 €</option>
+          <option>2 000 € – 5 000 €</option>
+          <option>5 000 € – 10 000 €</option>
+          <option>10 000 €+</option>
         </select>
       </div>
 
@@ -99,7 +99,7 @@ export default function GetQuoteForm() {
         value={formData.message}
         onChange={handleChange}
         rows="5"
-        placeholder="Tell us about your project..."
+        placeholder="Parlez-nous de votre projet..."
         className={`${inputClasses} mt-6 resize-none`}
         required
       />
@@ -110,12 +110,12 @@ export default function GetQuoteForm() {
         className="mt-8 w-full py-4 rounded-xl text-white font-semibold
                    bg-[var(--primary-color)] hover:bg-[var(--primary-color)]/90"
       >
-        {loading ? 'Sending...' : 'Submit Request ✈'}
+        {loading ? 'Envoi en cours...' : 'Envoyer la demande ✈'}
       </button>
 
       {success && (
         <p className="text-green-600 text-sm mt-4 text-center">
-          ✅ Your request has been sent successfully!
+          ✅ Votre demande a été envoyée avec succès !
         </p>
       )}
     </form>

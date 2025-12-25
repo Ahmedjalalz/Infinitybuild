@@ -1,9 +1,9 @@
 import Link from "next/link"
 
 export const metadata = {
-  title: 'About Us',
+  title: 'À propos de nous',
   description:
-    'Learn more about our web development agency, our process, and how we help businesses grow through modern digital solutions.',
+    'Découvrez notre agence de développement web, notre méthodologie et la manière dont nous aidons les entreprises à se développer grâce à des solutions digitales modernes.',
 }
 
 export default function AboutPage() {
@@ -21,17 +21,17 @@ export default function AboutPage() {
               color: 'var(--primary-color)',
             }}
           >
-            About Us
+            À propos de nous
           </span>
 
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            We <span className='text-[var(--primary-color)]'>Design & Build</span> Digital Products That Drive Results
+            Nous <span className='text-[var(--primary-color)]'>concevons et développons</span> des produits digitaux qui génèrent des résultats
           </h1>
 
           <p className="text-lg text-gray-600">
-            We are a professional web development agency focused on creating
-            modern, scalable, and high-performing digital solutions for
-            businesses worldwide.
+            Nous sommes une agence professionnelle de développement web,
+            spécialisée dans la création de solutions digitales modernes,
+            évolutives et performantes pour des entreprises du monde entier.
           </p>
         </div>
 
@@ -43,27 +43,27 @@ export default function AboutPage() {
             
             <div className="bg-white border border-gray-200 rounded-2xl p-8 shadow-sm transition hover:shadow-md hover:border-[var(--primary-color)]/70">
               <h3 className="text-2xl text-[var(--primary-color)] font-semibold mb-4">
-                Who We Are
+                Qui sommes-nous
               </h3>
               <p className="text-gray-600 leading-relaxed">
-                We are a team of skilled developers and designers who specialize
-                in building high-quality websites and web applications. Our
-                focus is not just on visuals, but on delivering solutions that
-                are fast, secure, user-friendly, and aligned with your business
-                goals.
+                Nous sommes une équipe de développeurs et de designers expérimentés,
+                spécialisée dans la création de sites web et d’applications web de
+                haute qualité. Notre priorité ne se limite pas au design : nous
+                livrons des solutions rapides, sécurisées, intuitives et alignées
+                sur vos objectifs business.
               </p>
             </div>
 
             <div className="bg-white border border-gray-200 rounded-2xl p-8 shadow-sm transition hover:shadow-md hover:border-[var(--primary-color)]/70">
               <h3 className="text-2xl text-[var(--primary-color)] font-semibold mb-4">
-                What We Do
+                Ce que nous faisons
               </h3>
               <ul className="space-y-3 text-gray-600">
-                <li>✔ Custom website development</li>
-                <li>✔ Web applications & dashboards</li>
-                <li>✔ Performance & SEO-focused builds</li>
-                <li>✔ Responsive and modern UI/UX</li>
-                <li>✔ Long-term support & improvements</li>
+                <li>✔ Développement de sites web sur mesure</li>
+                <li>✔ Applications web & tableaux de bord</li>
+                <li>✔ Conceptions axées sur la performance et le SEO</li>
+                <li>✔ Interfaces UI/UX modernes et responsives</li>
+                <li>✔ Support et améliorations à long terme</li>
               </ul>
             </div>
 
@@ -74,43 +74,43 @@ export default function AboutPage() {
             
             <div className="bg-white border border-gray-200 rounded-2xl p-8 shadow-sm transition hover:shadow-md hover:border-[var(--primary-color)]/70">
               <h3 className="text-2xl text-[var(--primary-color)] font-semibold mb-4">
-                How We Work
+                Notre méthode de travail
               </h3>
               <p className="text-gray-600 leading-relaxed mb-6">
-                Our process is simple, transparent, and client-focused.
+                Notre processus est simple, transparent et centré sur le client.
               </p>
 
               <ol className="space-y-4 text-gray-600 text-sm">
                 <li>
-                  <strong>1. Requirement Collection:</strong> You submit your
-                  project details through our Get Quote form.
+                  <strong>1. Collecte des besoins :</strong> Vous soumettez les
+                  détails de votre projet via notre formulaire de devis.
                 </li>
                 <li>
-                  <strong>2. Analysis & Proposal:</strong> We review your
-                  requirements and send you a detailed proposal including cost,
-                  timeline, and features.
+                  <strong>2. Analyse et proposition :</strong> Nous étudions vos
+                  besoins et vous envoyons une proposition détaillée incluant
+                  le budget, les délais et les fonctionnalités.
                 </li>
                 <li>
-                  <strong>3. Development:</strong> Once approved, we start
-                  building your project with regular updates.
+                  <strong>3. Développement :</strong> Une fois validé, nous
+                  lançons le développement avec des mises à jour régulières.
                 </li>
                 <li>
-                  <strong>4. Delivery & Support:</strong> We deliver the final
-                  product and provide ongoing support if needed.
+                  <strong>4. Livraison et accompagnement :</strong> Nous livrons
+                  le produit final et assurons un support continu si nécessaire.
                 </li>
               </ol>
             </div>
 
             <div className="bg-white border border-gray-200 rounded-2xl p-8 shadow-sm transition hover:shadow-md hover:border-[var(--primary-color)]/70">
               <h3 className="text-2xl text-[var(--primary-color)] font-semibold mb-4">
-                Why Choose Us
+                Pourquoi nous choisir
               </h3>
               <ul className="space-y-3 text-gray-600">
-                <li>✔ Clear communication & transparency</li>
-                <li>✔ Modern technologies & best practices</li>
-                <li>✔ Business-focused solutions</li>
-                <li>✔ On-time delivery</li>
-                <li>✔ Long-term partnership mindset</li>
+                <li>✔ Communication claire et transparente</li>
+                <li>✔ Technologies modernes et bonnes pratiques</li>
+                <li>✔ Solutions orientées business</li>
+                <li>✔ Respect des délais</li>
+                <li>✔ Vision de partenariat à long terme</li>
               </ul>
             </div>
 
@@ -120,11 +120,11 @@ export default function AboutPage() {
         {/* Bottom CTA */}
         <div className="text-center mt-24">
           <h2 className="text-3xl font-bold text-gray-900 mb-4 ">
-            Ready to Start Your Project?
+            Prêt à lancer votre projet ?
           </h2>
           <p className="text-gray-600 mb-8">
-            Share your idea with us and get a clear, detailed proposal tailored
-            to your needs.
+            Partagez votre idée avec nous et recevez une proposition claire et
+            détaillée, adaptée à vos besoins.
           </p>
 
           <Link
@@ -133,7 +133,7 @@ export default function AboutPage() {
                        transition shadow-md hover:shadow-lg hover:-translate-y-0.5"
             style={{ backgroundColor: 'var(--primary-color)' }}
           >
-            Get a Quote →
+            Demander un devis →
           </Link>
         </div>
 

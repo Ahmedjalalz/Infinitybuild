@@ -9,10 +9,10 @@ const ServicesSection = () => {
       {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-4">
-            Our <span className='text-[var(--primary-color)]'> Services</span>
+            Nos <span className='text-[var(--primary-color)]'>services</span>
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Comprehensive web development solutions tailored to your business needs.
+            Des solutions de développement web complètes, adaptées aux besoins de votre entreprise.
           </p>
         </div>
 
@@ -28,19 +28,14 @@ const ServicesSection = () => {
           ))}
         </div>
 
-
         {/* CTA Button */}
         <div className="text-center mt-16">
           <Link href={"./get-quote"}>
           <button className="bg-[var(--primary-color)] cursor-pointer hover:opacity-90 text-white px-7 py-3 rounded-xl font-semibold shadow-lg transition">
-            Start Your Project →
+            Démarrer votre projet →
           </button>
           </Link>
         </div>
-
-
-
-
 
     </section>
   );

@@ -4,23 +4,23 @@ import { FiGlobe, FiSmartphone, FiShoppingCart, FiFeather } from 'react-icons/fi
 export const serviceData = [
   {
     icon: FiGlobe,
-    title: "Website Development",
-    description: "Custom websites built with modern technologies. Responsive, fast, and SEO-optimized."
+    title: "Développement de sites web",
+    description: "Des sites web sur mesure conçus avec des technologies modernes. Responsifs, rapides et optimisés pour le SEO."
   },
   {
     icon: FiSmartphone,
-    title: "Web Applications",
-    description: "Powerful web apps with rich functionality. From dashboards to complex platforms."
+    title: "Applications web",
+    description: "Des applications web performantes avec des fonctionnalités avancées, des tableaux de bord aux plateformes complexes."
   },
   {
     icon: FiShoppingCart,
-    title: "E-Commerce Solutions",
-    description: "Online stores that convert. Seamless checkout, inventory management, and more."
+    title: "Solutions e-commerce",
+    description: "Des boutiques en ligne conçues pour convertir. Paiement fluide, gestion des stocks et bien plus."
   },
   {
     icon: FiFeather,
-    title: "UI/UX Design",
-    description: "Beautiful, intuitive designs that enhance user experience and boost engagement."
+    title: "Design UI/UX",
+    description: "Des interfaces élégantes et intuitives qui améliorent l’expérience utilisateur et renforcent l’engagement."
   }
 ];
 

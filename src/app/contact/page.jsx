@@ -1,8 +1,8 @@
 import GetQuoteForm from '@/components/GetQuoteForm'
 
 export const metadata = {
-  title: 'Contact Us',
-  description: 'Get in touch with us to discuss your project or request a quote.',
+  title: 'Contactez-nous',
+  description: 'Contactez-nous pour discuter de votre projet ou demander un devis.',
 }
 
 export default function ContactPage() {
@@ -19,16 +19,16 @@ export default function ContactPage() {
               color: 'var(--primary-color)',
             }}
           >
-            Contact Us
+            Contactez-nous
           </span>
 
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            Let’s <span className='text-[var(--primary-color)]'>Build</span> Something Great
+            Construisons <span className='text-[var(--primary-color)]'>ensemble</span> quelque chose d’exceptionnel
           </h1>
 
           <p className="text-gray-600 text-lg">
-            Have an idea or a project in mind? Fill out the form below and we’ll
-            get back to you as soon as possible.
+            Vous avez une idée ou un projet en tête ? Remplissez le formulaire
+            ci-dessous et nous vous répondrons dans les plus brefs délais.
           </p>
         </div>
 
@@ -41,31 +41,31 @@ export default function ContactPage() {
             {/* Info Card */}
             <div className="bg-white border border-gray-200 rounded-2xl p-8 shadow-sm transition hover:shadow-md">
               <h3 className="text-xl font-semibold mb-4">
-                Why Contact Us?
+                Pourquoi nous contacter ?
               </h3>
               <ul className="space-y-3 text-gray-600 text-sm">
-                <li>✔ Clear project estimation & timelines</li>
-                <li>✔ Modern, scalable solutions</li>
-                <li>✔ Transparent communication</li>
-                <li>✔ Long-term technical support</li>
+                <li>✔ Estimation claire du projet et des délais</li>
+                <li>✔ Solutions modernes et évolutives</li>
+                <li>✔ Communication transparente</li>
+                <li>✔ Support technique à long terme</li>
               </ul>
             </div>
 
             {/* Contact Info */}
             <div className="bg-white border border-gray-200 rounded-2xl p-8 shadow-sm transition hover:shadow-md">
               <h3 className="text-xl font-semibold mb-4">
-                Contact Information
+                Informations de contact
               </h3>
 
               <div className="space-y-4 text-sm text-gray-600">
                 <p>
-                  <strong>Email:</strong> Admin@infinitybuild.fr
+                  <strong>Email :</strong> Admin@infinitybuild.fr
                 </p>
                 <p>
-                  <strong>Phone:</strong> +1 (555) 123-4567
+                  <strong>Téléphone :</strong> +1 (555) 123-4567
                 </p>
                 <p>
-                  <strong>Working Hours:</strong> Mon – Sat, 9am – 6pm
+                  <strong>Horaires :</strong> Lun – Sam, 9h – 18h
                 </p>
               </div>
             </div>
