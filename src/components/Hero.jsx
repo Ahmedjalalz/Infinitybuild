@@ -36,20 +36,25 @@ export default function Hero() {
         {/* Buttons */}
         <div className="mt-10 flex justify-center gap-4 z-10 relative">
           <Link href="/get-quote" className="bg-white cursor-pointer hover:bg-white/90 text-[var(--primary-color)] px-7 py-3 rounded-xl font-semibold shadow-lg inline-block">
-            Start Your Project →
+            Get Started →
           </Link>
 
-          <Link href="/pricing" className="bg-transparent cursor-pointer hover:bg-white/10 text-white px-7 py-3 rounded-xl font-medium border border-white/50 shadow-sm backdrop-blur-sm transition inline-block">
-            View Pricing
+          <Link href="/about" className="bg-transparent cursor-pointer hover:bg-white/10 text-white px-7 py-3 rounded-xl font-medium border border-white/50 shadow-sm backdrop-blur-sm transition inline-block">
+            About Us
           </Link>
         </div>
 
         {/* Stats */}
         <div className="mt-20 grid grid-cols-1 sm:grid-cols-3 gap-12">
+          <Stat value="Custom-Built" label="Solutions" className="text-white" />
+          <Stat value="Client-First" label="Approach" className="text-white" />
+          <Stat value="Scalable & Secure" label="Code" className="text-white" />
+        </div>
+        {/* <div className="mt-20 grid grid-cols-1 sm:grid-cols-3 gap-12">
           <Stat value="50+" label="Projects Delivered" className="text-white" />
           <Stat value="98%" label="Client Satisfaction" className="text-white" />
           <Stat value="5+" label="Years Experience" className="text-white" />
-        </div>
+        </div> */}
 
       </div>
     </section>
@@ -110,7 +115,7 @@ export default function Hero() {
 function Stat({ value, label }) {
   return (
     <div className="text-center">
-      <h3 className="text-4xl font-extrabold text-background">
+      <h3 className="text-3xl font-extrabold text-background">
         {value}
       </h3>
       <p className="mt-2 text-white">{label}</p>

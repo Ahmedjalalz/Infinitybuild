@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const ServicesSection = () => {
   return (
-    <section className="py-24 bg-[var(--background)]">
+    <section className="py-24 mx-6 bg-[var(--background)]">
 
       {/* Header */}
         <div className="text-center mb-16">

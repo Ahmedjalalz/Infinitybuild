@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 
 const Footer = () => {
@@ -31,24 +32,24 @@ const Footer = () => {
             <h3 className="font-bold text-gray-900 text-lg">Quick Links</h3>
             <ul className="space-y-3">
               <li>
-                <a href="#" className="text-gray-600 hover:text-[var(--primary-color)] transition">
+                <Link href="./" className="text-gray-600 hover:text-[var(--primary-color)] transition">
                   Home
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="text-gray-600 hover:text-[var(--primary-color)] transition">
-                  Pricing
-                </a>
+                <Link href="./about" className="text-gray-600 hover:text-[var(--primary-color)] transition">
+                  About
+                </Link>
               </li>
               <li>
-                <a href="#" className="text-gray-600 hover:text-[var(--primary-color)] transition">
+                <Link href="./get-quote" className="text-gray-600 hover:text-[var(--primary-color)] transition">
                   Get Quote
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="text-gray-600 hover:text-[var(--primary-color)] transition">
+                <Link href="./contact" className="text-gray-600 hover:text-[var(--primary-color)] transition">
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

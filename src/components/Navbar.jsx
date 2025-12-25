@@ -32,8 +32,8 @@ function Navbar() {
           </Link>
         </li>
         <li>
-          <Link href="/pricing" className="hover:text-[var(--primary-color)] text-sm">
-            Pricing
+          <Link href="/about" className="hover:text-[var(--primary-color)] text-sm">
+            About 
           </Link>
         </li>
         <li>
