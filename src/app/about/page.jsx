@@ -10,7 +10,7 @@ export default function AboutPage() {
   return (
     <section className="bg-gray-50 min-h-screen py-20 px-4">
       <div className="max-w-6xl mx-auto">
-        
+
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-20">
           <span
@@ -25,32 +25,36 @@ export default function AboutPage() {
           </span>
 
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Nous <span className='text-[var(--primary-color)]'>concevons et développons</span> des produits digitaux qui génèrent des résultats
+            {/* Nous concevons et développons des produits digitaux qui génèrent des résultats */}
+            Nous <span className='text-[var(--primary-color)]'>créons des sites rapides, sécurisés,</span> pensés pour vendre et obtenir des résultats
           </h1>
 
           <p className="text-lg text-gray-600">
             Nous sommes une agence professionnelle de développement web,
-            spécialisée dans la création de solutions digitales modernes,
-            évolutives et performantes pour des entreprises du monde entier.
+            spécialisée dans la création de Nous concevons des solutions digitales en utilisant des technologies modernes comme Next.js et Tailwind CSS, pensées pour être rapides, évolutives et faciles à maintenir.
           </p>
         </div>
 
         {/* Main Content */}
         <div className="grid lg:grid-cols-2 gap-14 items-start">
-          
+
           {/* Left Content */}
           <div className="space-y-10">
-            
+
             <div className="bg-white border border-gray-200 rounded-2xl p-8 shadow-sm transition hover:shadow-md hover:border-[var(--primary-color)]/70">
               <h3 className="text-2xl text-[var(--primary-color)] font-semibold mb-4">
                 Qui sommes-nous
               </h3>
               <p className="text-gray-600 leading-relaxed">
-                Nous sommes une équipe de développeurs et de designers expérimentés,
-                spécialisée dans la création de sites web et d’applications web de
-                haute qualité. Notre priorité ne se limite pas au design : nous
-                livrons des solutions rapides, sécurisées, intuitives et alignées
-                sur vos objectifs business.
+                Infinity Build est née de l’association de deux amis passionnés par l’entrepreneuriat et le digital.
+                <br/><br/>
+                Nous avons créé cette agence avec une idée simple : concevoir des solutions digitales utiles, performantes et orientées résultats, capables d’aider concrètement les entreprises à se développer.
+                <br/><br/>
+                En tant que jeunes entrepreneurs, nous avons choisi de nous lancer pleinement dans cette aventure en mettant notre énergie, notre rigueur et notre sens du détail au service de commerçants et d’entrepreneurs souhaitant renforcer leur présence en ligne.
+                <br/><br/>
+
+                Chaque projet est pour nous un véritable partenariat : nous ne livrons pas seulement un site ou une application, mais une solution pensée pour répondre à des objectifs précis et générer de la valeur sur le long terme.
+
               </p>
             </div>
 
@@ -71,7 +75,7 @@ export default function AboutPage() {
 
           {/* Right Content */}
           <div className="space-y-10">
-            
+
             <div className="bg-white border border-gray-200 rounded-2xl p-8 shadow-sm transition hover:shadow-md hover:border-[var(--primary-color)]/70">
               <h3 className="text-2xl text-[var(--primary-color)] font-semibold mb-4">
                 Notre méthode de travail
