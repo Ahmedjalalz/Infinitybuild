@@ -5,7 +5,7 @@ export const serviceData = [
   {
     icon: FiGlobe,
     title: "Développement de sites web",
-    description: "Des sites web sur mesure conçus avec des technologies modernes. Responsifs, rapides et optimisés pour le SEO."
+    description: "Des sites web sur mesure conçus avec des technologies modernes. Réponse rapide, rapides et optimisés pour le SEO."
   },
   {
     icon: FiSmartphone,

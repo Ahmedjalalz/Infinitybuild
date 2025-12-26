@@ -45,8 +45,8 @@ export default function Hero() {
         {/* Stats */}
         <div className="mt-20 grid grid-cols-1 sm:grid-cols-3 gap-12">
           <Stat value="Sur mesure" label="Solutions" className="text-white" />
-          <Stat value="Orientée client" label="Approche" className="text-white" />
-          <Stat value="Évolutif et sécurisé" label="Code" className="text-white" />
+          <Stat value="Orientation client" label="Approche" className="text-white" />
+          <Stat value="Évolution et sécurité" label="Code" className="text-white" />
         </div>
 
       </div>
