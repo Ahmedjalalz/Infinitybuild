@@ -31,7 +31,7 @@ export default function AboutPage() {
 
           <p className="text-lg text-gray-600">
             Nous sommes une agence professionnelle de développement web,
-            spécialisée dans la création de Nous concevons des solutions digitales en utilisant des technologies modernes comme Next.js et Tailwind CSS, pensées pour être rapides, évolutives et faciles à maintenir.
+            spécialisée dans la création de Nous concevons des solutions digitales en utilisant des technologies modernes comme Next.js et Tailwind CSS, pensées pour être rapides, et faciles à maintenir.
           </p>
         </div>
 

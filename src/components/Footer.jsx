@@ -13,7 +13,7 @@ const Footer = () => {
             <div className="flex items-center gap-2">
               <Image
                 src="/logo.png"
-                alt="Infinity logo"
+                alt="Logo Infinity"
                 width={48}
                 height={48}
                 className="h-10 md:h-12 w-auto"
@@ -23,28 +23,28 @@ const Footer = () => {
               </p>
             </div>
             <p className="text-gray-600 max-w-xs leading-relaxed">
-              Nous créons des expériences digitales exceptionnelles qui stimulent votre croissance, des sites web élégants aux applications web performantes.
+              Nous créons des expériences digitales exceptionnelles qui stimulent votre croissance,
+              des sites web élégants aux applications web performantes.
             </p>
-
           </div>
 
           {/* Center: Quick Links */}
           <div className="space-y-4">
-            <h3 className="font-bold text-gray-900 text-lg">Quick Links</h3>
+            <h3 className="font-bold text-gray-900 text-lg">Liens rapides</h3>
             <ul className="space-y-3">
               <li>
                 <Link href="./" className="text-gray-600 hover:text-[var(--primary-color)] transition">
-                  Home
+                  Accueil
                 </Link>
               </li>
               <li>
                 <Link href="./about" className="text-gray-600 hover:text-[var(--primary-color)] transition">
-                  About
+                  À propos
                 </Link>
               </li>
               <li>
                 <Link href="./get-quote" className="text-gray-600 hover:text-[var(--primary-color)] transition">
-                  Get Quote
+                  Demander un devis
                 </Link>
               </li>
               <li>
@@ -59,18 +59,26 @@ const Footer = () => {
           <div className="space-y-4">
             <h3 className="font-bold text-gray-900 text-lg">Contact</h3>
             <a
-              href="mailto:hello@infinitybuild.com"
+              href="mailto:admin@infinitybuild.fr"
               className="text-gray-600 hover:text-[var(--primary-color)] transition block"
             >
               admin@infinitybuild.fr
+            </a>
+            <a
+              href="https://instagram.com/infinitybuild.fr"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-600 hover:text-[var(--primary-color)] transition block"
+            >
+              Instagram : @infinitybuild.fr
             </a>
           </div>
         </div>
 
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-gray-200 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-500">
-          <p>© 2025 InfinityBuild. All rights reserved.</p>
-          <p>Crafted with precision and passion.</p>
+          <p>© 2025 InfinityBuild. Tous droits réservés.</p>
+          <p>Conçu avec précision et passion.</p>
         </div>
       </div>
     </footer>

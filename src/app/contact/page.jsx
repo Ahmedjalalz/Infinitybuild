@@ -61,12 +61,12 @@ export default function ContactPage() {
                 <p>
                   <strong>Email :</strong> Admin@infinitybuild.fr
                 </p>
-                <p>
+                {/* <p>
                   <strong>Téléphone :</strong> +1 (555) 123-4567
                 </p>
                 <p>
                   <strong>Horaires :</strong> Lun – Sam, 9h – 18h
-                </p>
+                </p> */}
               </div>
             </div>
 

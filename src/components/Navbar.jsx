@@ -13,7 +13,7 @@ function Navbar() {
         <div className="flex items-center cursor-pointer gap-2">
           <Image
             src="/logo.png"
-            alt="Infinity logo"
+            alt="Logo Infinity"
             width={48}
             height={48}
             className="h-10 md:h-12 w-auto"
@@ -28,12 +28,12 @@ function Navbar() {
       <ul className="hidden md:flex gap-6 text-gray-700 font-medium absolute left-1/2 -translate-x-1/2">
         <li>
           <Link href="/" className="hover:text-[var(--primary-color)] text-sm">
-            Home
+            Accueil
           </Link>
         </li>
         <li>
           <Link href="/about" className="hover:text-[var(--primary-color)] text-sm">
-            About 
+            À propos
           </Link>
         </li>
         <li>
@@ -46,7 +46,7 @@ function Navbar() {
       {/* Button */}
       <Link href={'./get-quote'}>
         <button className="bg-[var(--primary-color)] h-9 rounded-md px-3 text-sm cursor-pointer font-semibold text-background">
-          Get Quote
+          Demander devis
         </button>
       </Link>
     </nav>
