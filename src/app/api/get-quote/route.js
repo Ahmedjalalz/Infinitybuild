@@ -15,7 +15,7 @@ export async function POST(req) {
 
     await resend.emails.send({
       from: 'Website <onboarding@resend.dev>',
-      to: ['admin@infinitybuild.fr'],
+      to: 'admin@infinitybuild.fr',
     //   reply_to: data.email,
       subject: 'New Get Quote Request',
       html: `
