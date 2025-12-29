@@ -63,11 +63,11 @@ export default function AboutPage() {
                 Ce que nous faisons
               </h3>
               <ul className="space-y-3 text-gray-600">
-                <li>✔ Développement de sites web sur mesure</li>
-                <li>✔ Applications web & tableaux de bord</li>
-                <li>✔ Conceptions axées sur la performance et le SEO</li>
-                <li>✔ Interfaces UI/UX modernes et responsives</li>
-                <li>✔ Support et améliorations à long terme</li>
+                <li>Développement de sites web sur mesure</li>
+                <li>Applications web & tableaux de bord</li>
+                <li>Conceptions axées sur la performance et le SEO</li>
+                <li>Interfaces UI/UX modernes et responsives</li>
+                <li>Support et améliorations à long terme</li>
               </ul>
             </div>
 
