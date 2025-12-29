@@ -110,11 +110,11 @@ export default function AboutPage() {
                 Pourquoi nous choisir
               </h3>
               <ul className="space-y-3 text-gray-600">
-                <li>✔ Communication claire et transparente</li>
-                <li>✔ Technologies modernes et bonnes pratiques</li>
-                <li>✔ Solutions orientées business</li>
-                <li>✔ Respect des délais</li>
-                <li>✔ Vision de partenariat à long terme</li>
+                <li>Communication claire et transparente</li>
+                <li>Technologies modernes et bonnes pratiques</li>
+                <li>Solutions orientées business</li>
+                <li>Respect des délais</li>
+                <li>Vision de partenariat à long terme</li>
               </ul>
             </div>
 
