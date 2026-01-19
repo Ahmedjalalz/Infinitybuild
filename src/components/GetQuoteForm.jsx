@@ -51,7 +51,7 @@ export default function GetQuoteForm() {
 
   return (
     <form onSubmit={handleSubmit} className="bg-white rounded-2xl border border-gray-200 p-8 max-w-4xl mx-auto shadow-sm">
-      
+
       <div className="grid gap-6 md:grid-cols-2">
         <input
           name="name"
@@ -80,18 +80,13 @@ export default function GetQuoteForm() {
           className={inputClasses}
         />
 
-        <select
+        <input
           name="budget"
           value={formData.budget}
           onChange={handleChange}
+          placeholder="Budget estimé (ex: 3000 €)"
           className={inputClasses}
-        >
-          <option value="">Sélectionnez un budget</option>
-          <option>1 000 € – 2 000 €</option>
-          <option>2 000 € – 5 000 €</option>
-          <option>5 000 € – 10 000 €</option>
-          <option>10 000 €+</option>
-        </select>
+        />
       </div>
 
       <textarea
