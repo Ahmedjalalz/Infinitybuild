@@ -79,14 +79,29 @@ export default function GetQuoteForm() {
           placeholder="+33 6 12 34 56 78"
           className={inputClasses}
         />
+        
+        {/* Budget input */}
+        <div className="relative">
+          <input
+            name="budget"
+            value={formData.budget.replace(' €', '')}
+            onChange={(e) => {
+              const value = e.target.value.replace(/[^\d]/g, '')
+              setFormData({
+                ...formData,
+                budget: value ? `${value} €` : '',
+              })
+            }}
+            placeholder="Budget estimé"
+            className={`${inputClasses} pr-10`}
+            inputMode="numeric"
+          />
 
-        <input
-          name="budget"
-          value={formData.budget}
-          onChange={handleChange}
-          placeholder="Budget estimé (ex: 3000 €)"
-          className={inputClasses}
-        />
+          <span className="absolute right-4 top-1/2 -translate-y-1/2 text-gray-500 text-sm">
+            €
+          </span>
+        </div>
+
       </div>
 
       <textarea
