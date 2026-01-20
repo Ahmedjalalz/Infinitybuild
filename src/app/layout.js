@@ -28,6 +28,7 @@ const outfit = Outfit({
 export const metadata = {
   title: "InfinityBuild - Agence de développement web premium",
   description: "Création de sites web et applications sur mesure performants et modernes.",
+  icon: '/favicon.ico',
 };
 
 export default function RootLayout({ children }) {
